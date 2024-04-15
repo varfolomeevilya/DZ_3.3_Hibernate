@@ -2,7 +2,7 @@ package org.jdbcexample.dao;
 
 
 import org.jdbcexample.config.DBConfig;
-import org.jdbcexample.entity.Cat;
+import org.jdbcexample.model.Cat;
 import org.springframework.stereotype.Repository;
 
 import java.sql.*;

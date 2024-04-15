@@ -1,4 +1,4 @@
-package org.jdbcexample.entity;
+package org.jdbcexample.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

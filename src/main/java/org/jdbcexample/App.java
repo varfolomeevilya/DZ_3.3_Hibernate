@@ -3,7 +3,7 @@ package org.jdbcexample;
 import lombok.Builder;
 import org.jdbcexample.dao.CarDAO;
 import org.jdbcexample.dao.CarDAOJDBCImpl;
-import org.jdbcexample.entity.Cat;
+import org.jdbcexample.model.Cat;
 
 import java.util.List;
 
@@ -40,7 +40,7 @@ public class App {
                 .findAny()
                 .orElseThrow();
 
-        carDao.removeCarById(idForRemove);
+//        carDao.removeCarById(idForRemove);
         System.out.println();
         System.out.println("AFTER REMOVING");
         carDao.getAllCars().forEach(System.out::println);

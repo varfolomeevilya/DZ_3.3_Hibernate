@@ -1,6 +1,6 @@
 package org.jdbcexample.dao;
 
-import org.jdbcexample.entity.Cat;
+import org.jdbcexample.model.Cat;
 
 import java.util.List;
 
